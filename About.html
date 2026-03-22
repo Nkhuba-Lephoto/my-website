@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+</head>
+<body>
+<style>
+    body{ 
+        background-color: white;
+        margin: 0;
+        min-height: 100vh;
+        font-family: 'poppins', sans-serif;
+        font-size: italic;
+        display: flex;
+        flex-direction: column;
+          
+    }
+    header{
+        background-color: blue;
+        padding: 15px;
+        text-align: center;
+        height: 80px;
+    }
+       .nav-menu{
+        list-style: none;
+        margin: 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-menu li{
+       margin: 20px 15px;
+    }
+    .nav-menu a{
+        color: red;
+        padding: 8px 12px;
+        border-radius: 5px;
+
+    }
+    .nav-menu :hover{
+        background-color: aqua;
+    }
+    p{
+        text-align: justify;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .marquee{
+        position: relative;
+        animation: moveText 40s linear infinite;
+    }
+    @keyframes moveText{
+        from{
+            left: 0;
+        }
+        to{
+            left: 100%;
+        }
+    }
+    .video{
+        text-align: center;
+    }
+    footer{
+        background-color: blue;
+        text-align: center;
+        padding: 10px;
+        position: static;
+        bottom: auto;
+        width: auto;
+        height: 120px;
+    }
+    main{
+        flex: 1;
+    }
+</style>
+
+<main>
+    <header>We.design
+        <nav>
+    <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#contact">contact</a></li>
+
+    </ul>
+</nav>
+    </header>
+     
+    </main>
+    <p class="marquee">
+        At We.design, we turn ideas into visuals that people remember. 
+        <Br> Based in Maseru, we help brands communicate clearly through thoughtful,
+         <br> morden design that look good and actually works from animation to print media
+         <br>
+         <br>
+         We partner with startups, small businesses, and established brands to create visual 
+         <br> identities that feel authentic and consistant across every touchpoint. Whenever
+         <br> you need a full rebrand, social media graphics, or marketing materials,
+         <br> we design with your goals and your audience in mind.
+         <br>
+        
+        </p>
+        <img src="startup story.jpg" alt="how we started">
+<p>
+            What we do:
+            <Br> 
+                <ul>
+                    <li>brand identity design.</li>
+                    <li>social media digital content design</li>
+                   <li>print design [flyers, poster, brochure, bussiness cards]</li>
+                   <li>Presantation and pitch deck design</li>
+                   <li>Web and UI graphics</li>
+                 </ul>
+<br>
+            How We work:
+            <br> We start by listening. We take time to understand your bussiness,
+            <br>your audience, and what success looks like for you. from there we explore 
+            <br> concepts, refine the strongest direction and deliver polished designs assets 
+            <br>that are ready to use.
+            <br>
+            <br>
+            Out Mission 
+            <br>Our mission is to help bussiness in Lesotho and beyond stand out with our designs that 
+            <br> is simple, strategic and memorable. We believe good design should not just look beautiful 
+            <br> it should solve problems, tell stories and move people to action.
+            <br>
+
+                <br>
+                <br>
+
+        </p>
+        <div class="video">
+<video width="200" controls autoplay muted loop>
+    <source src="promotion.mp4" type="video/mp4">
+</video></div>
+       
+<footer id="contact">
+    contact us at
+        <br>email : beastodesigner.@gmail.com / We.design@gmail.com
+        <br>Ha Abia Pela Ha Manyethoane. Maseru
+        <br> contact details: 6711 5477
+    
+</footer>
+</body>
+</html>
